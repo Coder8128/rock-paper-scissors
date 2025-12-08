@@ -75,7 +75,7 @@ function playGame() {
 
     for (let i = 0; i < 5; i++) {
         const humanSelection = getHumanChoice();
-        const computerSelection = "rock";
+        const computerSelection = getComputerChoice;
 
         playRound(humanSelection, computerSelection);
     }
